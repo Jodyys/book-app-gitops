@@ -4,6 +4,7 @@ kind: Ingress
 
 metadata:
   name: bookapp-ingress
+  namespace: book-app
 
 spec:
   ingressClassName: traefik
