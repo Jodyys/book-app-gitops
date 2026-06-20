@@ -14,7 +14,6 @@ spec:
 
       - path: /
         pathType: Prefix
-
         backend:
           service:
             name: frontend
@@ -23,10 +22,8 @@ spec:
 
       - path: /api
         pathType: Prefix
-
         backend:
           service:
             name: backend
             port:
               number: 5001
-
